@@ -1,0 +1,106 @@
+/* todo Mobile Devices */
+@media only screen and (max-width: 767px){
+    /* Home Section */
+    #home-section h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #home-section h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    #home-section img{
+        width: 100%;
+        margin: auto;
+    }
+    #home-section h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* About Me Section */
+    #about-me-section{
+        padding-top: 7rem;
+    }
+    #about-me-section .wrapper{
+        background: #011b17e3;
+    }
+    #about-me-section .personal-info h4{
+        margin-top: 2rem;
+        font-size: 1.7rem;
+    }
+    #about-me-section .personal-info h2{
+        font-size: 2.5rem;
+    }
+    #about-me-section .personal-info .basic-info{
+        text-align: start;
+    }
+
+    /* Project Section */
+    #project-section h1{
+        font-size: 4.5rem;
+    }
+    #project-section p{
+        font-size: 1.3rem;
+    }
+
+    .masonry {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: 5px;
+        gap: 20px;
+    }
+    
+}
+
+/* todo Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /* Home Section */
+    #home-section h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #home-section h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    #home-section img{
+        width: 100%;
+        margin: auto;
+    }
+    #home-section h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* About Me Section */
+    #about-me-section{
+        padding-top: 7rem;
+    }
+    #about-me-section .wrapper{
+        background: #011b17e3;
+    }
+    #about-me-section .personal-info h4{
+        margin-top: 2rem;
+        font-size: 1.7rem;
+    }
+    #about-me-section .personal-info h2{
+        font-size: 2.5rem;
+    }
+    #about-me-section .personal-info .basic-info{
+        text-align: start;
+    }
+
+    /* Project Section */
+    #project-section h1{
+        font-size: 4.5rem;
+    }
+    #project-section p{
+        font-size: 1.3rem;
+    }
+
+    .masonry {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: 5px;
+        gap: 20px;
+    }
+}
