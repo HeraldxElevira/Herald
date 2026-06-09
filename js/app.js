@@ -83,6 +83,12 @@ items.forEach((items, index) => {
     //Retrieve each img element and sets the source of it by the cloned image
     modalClone.querySelector('img').src = image;
 
+    // Set the modal title dynamically if the card contains an h4 element
+    const projectTitle = items.querySelector('h4');
+    if (projectTitle) {
+        modalClone.querySelector('.modal-title').innerText = projectTitle.innerText;
+    }
+
     //Appends the cloned modal to the body of the document
     document.body.appendChild(modalClone);
 })

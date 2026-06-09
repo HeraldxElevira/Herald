@@ -36,18 +36,46 @@
         text-align: start;
     }
 
-    /* Project Section */
-    #project-section h1{
-        font-size: 4.5rem;
+    /* Selected Work Section */
+    #selected-work-section h1 {
+        font-size: 3rem;
+        text-align: center;
     }
-    #project-section p{
-        font-size: 1.3rem;
+    #selected-work-section p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .project-nav-centered {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .project-nav-centered .nav-link {
+        font-size: 0.85rem;
+        padding: 0.6rem 1.2rem;
+        text-align: center;
+    }
+    .project-placeholder-card {
+        grid-column: span 1;
+        padding: 3rem 1.5rem;
     }
 
-    .masonry {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-auto-rows: 5px;
+    /* Tech Stack Section */
+    #tech-stack-section {
+        padding: 4rem 0;
+    }
+    #tech-stack-section h1 {
+        font-size: 3rem;
+    }
+    .tech-grid {
+        grid-template-columns: 1fr;
         gap: 20px;
+    }
+    .tech-card {
+        padding: 2rem 1.5rem;
     }
     
 }
@@ -90,17 +118,27 @@
         text-align: start;
     }
 
-    /* Project Section */
-    #project-section h1{
-        font-size: 4.5rem;
+    /* Selected Work Section */
+    #selected-work-section h1 {
+        font-size: 3.5rem;
     }
-    #project-section p{
-        font-size: 1.3rem;
+    #selected-work-section p {
+        font-size: 1.05rem;
+    }
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
-    .masonry {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-auto-rows: 5px;
-        gap: 20px;
+    /* Tech Stack Section */
+    #tech-stack-section {
+        padding: 5rem 0;
+    }
+    #tech-stack-section h1 {
+        font-size: 3.5rem;
+    }
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
     }
 }
